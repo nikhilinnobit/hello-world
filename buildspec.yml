@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - echo "Installing Dependencies..."
+      - npm install
+  build:
+    commands:
+      - echo: "Building the Project ..."
+      - npm run build
